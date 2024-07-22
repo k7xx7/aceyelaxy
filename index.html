@@ -1,0 +1,150 @@
+<head>
+    <title>Acey Elaxy | Clothing brand</title>
+    <link rel="stylesheet" href="style.css">
+
+
+<style>
+  .loader {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: white;
+     transition: opacity 0.75s, visibility 0.75s;
+  }
+
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+
+  }
+
+  .loader::after {
+content: "";
+width: 75px;
+height: 75px;
+border: 15px solid black;
+border-top-color: rgb(190, 190, 190);
+border-radius: 50%;
+animation: loading 0.75s ease infinite;
+  }
+
+  @keyframes loading {
+    from { transform: rotate(0turn);}
+    to { transform: rotate(1turn);}
+  }
+</style>
+
+<script>
+  window.addEventListener("load",() =>{
+    const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("Transitionend", () => {
+document.body.removeChild(document.querySelector(".loader"));
+});
+  });
+</script>
+
+</head>
+
+<header class="shine">
+<div class="card1">
+<p> </p><br>
+
+
+   <a href="http://127.0.0.1:5500/index.html"><img src="Official_Acey_Elaxy_logo-removebg-preview.png" alt="" style="margin-left: 44%;"></a>
+
+
+</div>
+</header><br><br><br><br>
+
+
+<body style="background-image: url(white-background.png);">
+
+
+  <div class="loader loader--hidden">
+
+  </div>
+
+
+
+    <div class="wrapper" style="margin-left: 640px;">
+        <a onclick="document.location='hats%20category.html'"><div class="option">
+          <input class="input" type="radio" name="btn" value="Hats" checked="">
+          <div class="btn">
+            <span class="span">Hats </span>
+            </div>
+        </div></a> 
+        <a onclick="document.location='shirts%20category.html'"> <div class="option">
+          <input class="input" type="radio" name="btn" value="Shirts">
+          <div class="btn">
+            <span class="span">Shirts</span>
+          </div> </div> </a>
+          <a onclick="document.location='pants%20category.html'"> <div class="option">
+          <input class="input" type="radio" name="btn" value="Pants">
+          <div class="btn">
+            <span class="span">Pants</span>
+          </div>  
+        </div></a>
+      </div>
+      <br><br><br><br><br><br>
+
+
+      <style>
+        .mycontainer {
+          display: flex;
+        }
+        .mycontainer > div {
+          width:30%;
+        }
+        </style>
+
+<div class="mycontainer">
+
+
+  <div><img src="Mockup akira saturn hat-Photoroom.png" alt="" style="margin-left: 15px;"></div>
+  
+  <div> <img src="Believe in Justice T-shirt Mockup BACK-Photoroom.png" alt=""></div>
+  
+  <div> <img src="mockup pants acey elaxy.png" alt=""></div>
+
+
+</div>
+
+<div class="mycontainer">
+  <div><img src="Mockup Helala Boys hoodie front-Photoroom.png" alt="" style="margin-left: 15px;"></div>
+  
+  <div> <img src="Mockup hoodies acey elaxy back-Photoroom.png" alt=""></div>
+  
+  <div> <img src="Saturn Mockup women-Photoroom.png" alt=""></div>
+</div>
+<br><br><br><br><br><br><br>
+<div class="shine">
+
+<h4 style="margin-left: 36.5%;color: rgb(0, 0, 0);"><i>Acey Elaxy a brand of elegance</i></h4>
+<div class="container1">
+  <div class="loader1"></div>
+</div>
+</div>
+</body>
+
+
+
+<footer>
+<div class="card9" style="margin-top: 200px;">
+    <p> </p><br>
+   <address style="color:rgb(0, 0, 0);margin-left: 20px;">website created by<br><b> Elmsieh Adam </b></address>
+<p style="margin-left: 80%;"> More about : <a href="http://127.0.0.1:5500/more%20about.html#" class="button" >Acey Elaxy</a></p>
+    <h4 style="color: rgb(0, 0, 0);margin-left: 42%;">
+        Thank you for visiting our website ♡
+</h4>
+</div>
+</footer>
+    
+</html>
